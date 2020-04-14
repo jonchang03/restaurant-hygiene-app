@@ -2,3 +2,4 @@ dash
 *.pyc
 .DS_Store
 .env
+.vscode/
