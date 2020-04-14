@@ -39,7 +39,7 @@ serialize_path = './pipeline.joblib'
 pipeline_serialized = load(serialize_path) 
 
 app.layout = html.Div(children=[
-    html.H1('Data Hygiene Prediction'), 
+    html.H1('Restaurant Hygiene Prediction'), 
 
     html.Div([
         html.P('Instructions: Please fill out the following inputs to receive a prediction of how likely a restaurant is to pass a hygiene inspection.'),
